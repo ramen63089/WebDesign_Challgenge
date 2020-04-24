@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Document</title>
+    <nav>
+
+        
+        <div class="navbar">
+            <h1>Lattitude</h1>
+            <a href="data.html">Data</a>
+            <a href="comparisons.html">Comparison</a>
+            <div class="dropdown">
+              <button class="dropbtn">Plots
+                <i class="arrow down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="viz1index.html">Max Temperature</a>
+                <a href="viz2index.html">Humidity</a>
+                <a href="viz3index.html">Cloudiness</a>
+                <a href="viz4index.html">Wind Speed</a>
+              </div>
+            </div>
+          </div>
+    </nav>
+</head>
+<body>
+    <div class="summary"></div>
+        <h1>Summary: Latitude vs. X</h1>
+        <img id="tang" src= "11-Web_HW_Instructions_Resources_assets_images_Fig1.png">
+        <div class="paragraph"></div>
+            <p>The purpose of this project was to analyze how weather changes as you get close to the equator.  To accomplish this analysis, we 
+            first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.<br>
+            <br>
+            After assembling the dataset, we used Matplotlib to plot 
+            various aspects of the weather vs. latitude. 
+             Factors we looked at included: temperature, 
+             cloudiness, wind speed, and humidity.  
+             This site provides the source data and
+              visualizations created as part of the analysis,
+               as well as explanations and descriptions 
+               of any trends and correlations witnessed.
+            </p>
+        </div>
+    </div>
+    <div class= "charts">
+            <a href="viz1index.html">
+                <img src="11-Web_HW_Instructions_Resources_assets_images_Fig1.png">
+             </a>
+             <a href="viz2index.html">
+                <img src="11-Web_HW_Instructions_Resources_assets_images_Fig2.png">
+            </a>
+            <a href="viz3index.html">
+                <img src="11-Web_HW_Instructions_Resources_assets_images_Fig3.png">
+            </a>
+            <a href="viz4index.html">
+                <img src="11-Web_HW_Instructions_Resources_assets_images_Fig4.png">
+            </a>    
+    </div>
+</body>
+</html>
